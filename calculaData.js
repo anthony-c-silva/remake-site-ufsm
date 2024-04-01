@@ -1,7 +1,7 @@
 function verifiData(inputDate) {
     
     var inputDate2 = new Date(inputDate.value);
-    var currentDate = new Date();
+    var DataAtual = new Date();
     var ano = inputDate2.getFullYear();
     var anoAtual = new Date();
     
@@ -11,11 +11,11 @@ function verifiData(inputDate) {
         alert('Você inseriu uma data invalida ! O campo foi zerado.');
         
     }else
-    if (inputDate2 < currentDate) {
+    if (inputDate2 < DataAtual) {
        
         alert('Você inseriu uma data anterior a atual !');
     }else 
-    if (inputDate2 > currentDate) {
+    if (inputDate2 > DataAtual) {
        
         alert('Você inseriu uma data posterior a atual !');
     } 
