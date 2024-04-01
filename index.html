@@ -20,11 +20,11 @@
             </div>
             <div class="mb-3">
                 <label for="nomeAluno" class="form-label">Nome do Aluno:</label>
-                <input type="text" class="form-control" id="nomeAluno" >
+                <input type="text" class="form-control" id="nomeAluno" onblur="verifiNome(this)">
             </div>
             <div class="mb-3">
                 <label for="nomeAvaliador" class="form-label">Nome do Avaliador(a):</label>
-                <input type="text" class="form-control" id="nomeAvaliador">
+                <input type="text" class="form-control" id="nomeAvaliador" onblur="verifiNome(this)">
             </div>
             <div class="mb-3">
                 <label>Qual semestre do ano ?</label>
@@ -166,6 +166,7 @@
     <script src="geraPdf.js"></script>
     <script src="assinatura.js"></script>
     <script src="calculaData.js"></script>
+    <script src="verificaNomes.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
