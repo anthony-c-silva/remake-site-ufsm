@@ -1,14 +1,13 @@
 # Projeto: Remake de site/app web
 
-![Substitua a imagem ao lado por um screenshot do seu projeto](https://mdswanson.com/static/chops-ux-step-4.png "Screenshot do projeto")
+![.](https://github.com/elc1090/project1-2024a-anthony-c-silva/blob/main/screenshot.png)
 
 
-Acesso: Substitua este texto pela URL para acesso ao site publicado
+Acesso: https://elc1090.github.io/project1-2024a-anthony-c-silva/
 
 
 #### Desenvolvedor(a)
-Anthony Carlos Da Silva 
-Ciência Da Computação
+Anthony Carlos Da Silva - Ciência Da Computação
 
 #### Site/app escolhido
 
@@ -20,7 +19,7 @@ O site é constituido por um formulario com informações para serem preenchidas
 
 #### Desenvolvimento
 
-Meu objetivo no RAMAKE foi melhorar as validações dos campos a serem preenchidos no formulario, deixa-lo mais amigavel ao usuário estilizando e mudando as cores do site e adicionar uma navbar com um menu de opções para acessar os outros formularios pertinentes para uma banca de TCC.
+Meu objetivo no RAMAKE foi melhorar as validações dos campos a serem preenchidos no formulário , deixa-lo mais amigavel ao usuário estilizando e mudando as cores do site com o bootstrap e adicionando uma navbar com um menu de opções para acessar os outros formularios pertinentes para uma banca de TCC. As partes do código original foi retirado do inspecionar da página que foi feito o remake. Assim foi refeito todo o site com base na estrutura original modificando tanto o HTML quando o CSS e JavaScript mas sem perder a essencia do site antigo. 
 
 
 #### Tecnologias
